@@ -1,3 +1,20 @@
 <h1 id="count">0</h1>
-<h1>people are watching</h1>
+<h1 id="hello">people are watching</h1>
 <h1><a href="https://github.com/parkeristyping/whoswatching">Github</a></h1>
+
+<script>
+var dispatcher = new WebSocketRails('localhost:3000/websocket');
+dispatcher.on_open = function(data) {
+	  console.log('Connection has been established: ', data);
+	    // You can trigger new server events inside this callback if you wish.
+}
+console.log('1111')
+dispatcher.bind('new_message', function(data) {
+	    console.log('Daso:', data.message);
+});
+
+document.getElementById("hello").onclick = function(e){
+  dispatcher.trigger('new_message');
+};
+
+</script>
