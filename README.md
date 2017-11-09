@@ -7,3 +7,6 @@ This is a simple site created as a demo of Websocket Rails. I wrote a blog post 
 ## License
 
 Whoswatching is MIT Licensed. See LICENSE for details.
+http://www.hereisahand.com/using-websockets-in-a-rails-project/
+
+https://pure-dawn-3745.herokuapp.com/
