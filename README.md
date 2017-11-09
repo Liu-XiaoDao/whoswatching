@@ -10,3 +10,8 @@ Whoswatching is MIT Licensed. See LICENSE for details.
 http://www.hereisahand.com/using-websockets-in-a-rails-project/
 
 https://pure-dawn-3745.herokuapp.com/
+
+
+
+
+https://codesky.me/archives/rails-websocket-guide.wind
